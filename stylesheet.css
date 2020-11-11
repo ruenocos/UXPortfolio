@@ -1,10 +1,11 @@
 body, html {
     height: 100%;
+    margin: 0;
   }
 
   .bg {
     /* The image used */
-    background-image: url("img_girl.jpg");
+    background-image: url("/Images/Frontpage.jpg");
 
     /* Full height */
     height: 100%;
@@ -13,4 +14,22 @@ body, html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+  }
+
+  .caption {
+      position: absolute;
+      left: 0;
+      top: 50%;
+      width: 100%;
+      text-align: center;
+      color: #000;
+  }
+
+  .caption span {
+      padding: 18px;
+      font-size: 25px;
+      color: #fff;
+      background-color: #000;
+      letter-spacing: 10px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
